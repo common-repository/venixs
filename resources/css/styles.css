@@ -1,0 +1,134 @@
+.venixs_x_ai *:focus {
+  outline: none;
+}
+
+.venixs_x_ai {
+  background-color: #efefef;
+  padding: 15px 70px;
+  font-family: "Open Sans", "Arial", snas-serif;
+  overflow: hidden;
+}
+
+.venixs_x_ai .input-group {
+  display: block;
+/*   width: 441px; */
+  max-width: 60%;
+  height: 67px;
+  border: 0;
+  background-color: #ffffff;
+  /* border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px; */
+  border-radius: 16px;
+  box-shadow: 0 17px 40px 0 rgba(75, 128, 182, 0.07);
+  margin-bottom: 22px;
+  position: relative;
+  font-size: 17px;
+  color: #a7b4c1;
+  transition: opacity 0.2s ease-in-out, filter 0.2s ease-in-out,
+    box-shadow 0.1s ease-in-out;
+}
+
+.venixs_x_ai .group-select {
+    width: 441px!important;
+}
+
+.venixs_x_ai select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  text-indent: 0.01px;
+  appearance: none;
+  background-image: none;
+  text-overflow: '';
+}
+
+.venixs_x_ai select::-ms-expand {
+  display: none;
+}
+
+
+.venixs_x_ai .input-group:hover {
+  box-shadow: 0 14px 44px 0 rgba(0, 0, 0, 0.077);
+}
+
+.venixs_x_ai .input-group input, .venixs_x_ai .input-group select {
+  position: absolute;
+  border: 0;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 63px;
+  width: 93%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  z-index: 3;
+  display: block;
+  /* color: #1a6fc4; */
+  font-size: 17px;
+  font-family: "Oxygen", sans-serif;
+  transition: top 0.1s ease-in-out;
+}
+
+/* .venixs_x_ai .input-group select {
+
+} */
+
+.venixs_x_ai .input-group input::placeholder, .venixs_x_ai .input-group select::placeholder {
+  color: rgba(0, 0, 0, 0);
+}
+
+.venixs_x_ai .input-group input:focus,
+.venixs_x_ai .input-group input:not(:placeholder-shown), .venixs_x_ai .input-group select:focus,
+.venixs_x_ai .input-group select:not(:placeholder-shown) {
+  top: 9px;
+}
+
+.venixs_x_ai .input-group label {
+  position: absolute;
+  border: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  cursor: text;
+}
+
+.venixs_x_ai .input-group input:focus + label,
+.venixs_x_ai .input-group input:not(:placeholder-shown) + label, .venixs_x_ai .input-group select:focus + label,
+.venixs_x_ai .input-group select:not(:placeholder-shown) + label {
+  bottom: 27px;
+  left: -18px;
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.venixs_x_ai .padlock-mark {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  right: 33px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 22px;
+  color: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.venixs_x_ai p.submit input.button-primary  {
+  overflow: hidden;
+	width: 220px;
+	-webkit-transition: border-color 0.3s, color 0.3s;
+	transition: border-color 0.3s, color 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
